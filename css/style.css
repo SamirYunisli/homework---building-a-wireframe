@@ -1,0 +1,71 @@
+body {
+    background: #777;
+    height: 100%;
+}
+
+header, nav, section, aside, footer {
+    background: #ebebeb;
+    padding: 20px;
+    color: #777;
+}
+nav, section, aside, footer {
+    margin: 10px;
+}
+.container {
+    font-size: 18px;
+    text-align: center;
+    width: 960px;
+    margin: 10px auto;
+    }
+header {
+    margin: 0px 10px;
+}
+section, aside {
+    float: left;
+    box-sizing: border-box;
+    height: 260px;
+}
+section {
+    width: 495px;
+    padding: 20px 10px 10px 10px;
+}
+aside {
+    width: 425px;
+    height: 260px;
+}
+footer {
+    float: none;
+    clear: both;
+}
+h1, p {
+    background: #ebebeb;
+    color: #777;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 435px;
+    margin: 10px;
+}
+h1 {
+    font-weight: bold;
+}
+article {
+    background: #777;
+    color: #ebebeb;
+    width: 455px;
+    height: 180px;
+    margin-top: 10px;
+    padding: 10px;
+}
+@media screen and (max-width:1000px) {
+    .container {
+        width:820px;
+        margin: 0px auto;
+    }
+     header, nav, footer, section, aside {
+        width: 800px;
+        box-sizing: border-box;
+    }
+    article, p, h1 {
+        margin: 10px auto;
+    }
+}
